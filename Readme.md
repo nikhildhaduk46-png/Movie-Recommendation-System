@@ -53,9 +53,11 @@ To run this project locally, follow these steps:
 1. Prerequisites
 Python 3.8 or higher
 pip
+
 2. Clone the Repository
 git clone https://github.com/your-username/Movie-Recommender-System-main.git
 cd Movie-Recommender-System-main
+
 3. Install Dependencies
 It is recommended to use a virtual environment.
 
@@ -65,11 +67,15 @@ source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 # Install the required packages
 pip install -r requirements.txt
+
+
 4. Get the Data
 The project uses the TMDB 5000 Movie Dataset. Download the following files and place them in the root directory of the project:
 
 tmdb_5000_movies.csv
 tmdb_5000_credits.csv
+
+
 5. Preprocess the Data
 Run the Jupyter Notebook or the Python script to process the data and generate the necessary pickle files. This will create movies.pkl and similarity.pkl.
 
