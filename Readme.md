@@ -1,7 +1,9 @@
 Movie Recommender System
+
 A content-based movie recommender system built with Python, Pandas, and Scikit-learn. The application is served as an interactive web app using Streamlit.
 
 🎬 Features
+
 Content-Based Filtering: Recommends movies based on similarity of genres, keywords, cast, and crew.
 
 Interactive UI: A simple and clean web interface built with Streamlit to select a movie and get recommendations.
@@ -12,6 +14,7 @@ Data Preprocessing: Includes a script for processing and cleaning the raw TMDB 5
 
 
 ⚙️ How It Works
+
 The recommendation engine is built using the following steps:
 
 Data Loading & Merging: The TMDB 5000 Movies and Credits datasets are loaded and merged into a single dataframe.
