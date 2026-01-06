@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Data & models
+data/
+models/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor & OS
+.vscode/
+.DS_Store
